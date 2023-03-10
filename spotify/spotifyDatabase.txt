@@ -1,0 +1,22 @@
+CREATE TABLE Music(
+username varchar2(20),
+userdob date,
+userphone number(10),
+userpassword varchar2(20)
+)
+ 
+
+
+
+
+
+
+
+
+
+// to delete the table
+DROP TABLE table name
+
+// to delete specify column
+ALTER TABLE Music
+DROP COLUMN userdob;

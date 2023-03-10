@@ -1,0 +1,37 @@
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.*;
+import java.sql.*;
+
+public class LoginServer extends HttpServlet
+{
+	public void doPost(HttpServletRequest req,HttpServletResponse res)throws ServletException,IOException
+	{
+		res.setContentType("text/html");
+		PrintWriter pw=res.getWriter();
+		String usr,psw;
+		usr=req.getParameter("txt1");
+		psw=req.getParameter("txt2");
+		try
+		{
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","tiger");
+			PreparedStatement ps=new prepareStatement("select * from Abinash1.logindb where PASSWORD=?");
+			ps.setString(1,psw);
+			ResultSet rs=ps.executeQuery();
+			if(rs.next())
+			{
+				pw.print("congrats");
+			}
+			else
+			{
+				pw.print("sorry");
+			}
+		}
+		catch(Exception e)
+		{
+			pw.print(e);
+		}
+	}
+}
+		

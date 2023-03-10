@@ -1,0 +1,8 @@
+h2{
+    background-color: rgb(16, 203, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+
+}

@@ -1,0 +1,427 @@
+.Bar {
+    display: none;
+ }
+
+.container1{
+    display: none;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 59px;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+.logo{
+  
+    display: flex;
+    align-items: center;
+    margin-left: 96px;
+    cursor: pointer;
+
+}
+
+.menu ul li {
+   
+    list-style: none;
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+.menu ul li a{
+    text-decoration:none;
+    color: white;
+}
+.menu ul li a:hover{
+    color: rgb(20, 205, 20);
+    transform: scale(1.1);
+}
+.menu ul li:hover{
+    color: rgb(20, 205, 20);
+    transform: scale(1.1);
+}
+.menu{
+    padding-top: 19px;
+    margin-right: 104px;
+}
+.logo img{
+    width: 45px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+.nav ul{
+    display: flex;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+.container {
+    height: 479px;
+    background: url(./image/musical-colorful-notes-dark-background_1017-32302.avif) no-repeat;
+    background-size: cover;   
+    @media  only screen and (max-width:1000px) {
+   .nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    
+   }
+   .nav ul{
+    display: grid;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0 auto;
+   }
+   .nav ul li{
+    margin-bottom: 10px;
+   }
+   .menu{
+    width: 100%;
+    margin: 0 auto;
+   }
+  }
+
+
+}
+
+.cimage{
+    color: white;
+    width: 35%;
+    margin-left: 60vw;
+    padding-top: 21vh;
+
+}
+.cbtn{
+    height: 40px;
+    width: 100px;
+    background: none;
+    color: white;
+    border: solid white 2px;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bolder;
+    
+}
+
+
+#clock{
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: #00b109;
+}
+#formatbtn{
+    cursor: pointer;
+    border-radius: 20%;
+    color:rgb(30, 137, 123);
+    background-color: black;
+}
+.container input[type=button]{
+    height: 49px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 194px;
+
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 58px;
+    margin-right: 20px;
+    
+   
+}
+input[type=button]:hover{
+  
+    background-color: #45a049;
+    color: whitesmoke;
+
+}
+.box{
+    height: 326px;
+    margin-top: 60px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+.box1,.box2,.box3,.box44{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ht{
+    text-align: center;
+    margin-top: 25px;
+}
+.pt{
+    text-align: center;
+    margin-top: 25px;
+}
+.h1{
+    margin-top: 50px;
+}
+.image img{
+    width: 100%;
+}
+.image{
+    margin-top: 100px;
+}
+.question {
+width: 70%;
+margin: 0 auto;
+}
+.question ul li{
+ 
+    cursor: pointer;
+    list-style: none;
+    margin-top: 10px;
+    height: 40px;
+    padding: 10px;
+}
+
+.question ul li:hover{
+    
+background-color: aliceblue;
+color: black;
+
+}
+#drop1,#drop2,#drop3,#drop4{
+    display: none;
+}
+.btn{
+    float: right;
+    cursor: pointer;
+    
+}
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   width: 100%;
+   height: 300px;
+   background: url(./image/zrM8Kq.webp);
+   color: white;
+   font-weight: 10px;
+   font-size: 30px;
+}
+.foot{
+    color: white;
+    height: 80vh;
+    padding-top: 60px;
+    background-color: rgb(0, 0, 1);  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.foot1{
+    display: flex;
+    justify-content: no space-between;
+  
+}
+.box4{
+    margin-top:20px;
+}
+.box5 ul li{
+    list-style: none;
+    margin-top: 25px;
+    font: -webkit-control;
+}
+.box5 ul{
+margin-top:40px;
+}
+.box5{
+    margin-left:100px;
+}
+.box6 ul li{
+    list-style: none;
+    margin-top: 25px;
+    font: -webkit-control;
+}
+.box6 ul{
+margin-top:40px;
+}
+.box6{
+    margin-left:100px;
+}
+.box7 ul li{
+    list-style: none;
+    margin-top: 25px;
+    font: -webkit-control;
+}
+.box7 ul{
+margin-top:40px;
+}
+.box7{
+    margin-left:100px;
+}
+.box8 ul li{
+    display: inline;
+    margin-left: 20px;
+    margin-top: 25px;
+    font: -webkit-control;
+}
+.box8 img{
+    width: 40px;
+}
+.box8 ul{
+margin-top:40px;
+}
+.box8{
+    margin-left:100px;
+}
+
+
+.company{
+    color: rgb(101, 97, 97);
+}
+.fnav{
+   width: 85%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+.fnav ul li{
+    color: white;
+    list-style: none;
+display: inline;
+margin-right: 10px;
+font: menu;
+
+}
+.fnav2{
+    float: right;
+}
+.fnav2 p{
+    margin: 8px;
+    font: menu;
+}
+footer li:hover{
+color: rgb(40, 200, 40);
+cursor: pointer;
+transform: scale(1.1);
+}
+.actionbar{
+    background-color: #0000ef;
+    color: white;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.xbtn{
+    float: right;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+.xbtn a{
+    color: white;
+    text-decoration: none;
+}
+.xbb{
+    width: 42px;
+    cursor: pointer;
+    height: 30px;
+   
+}
+.bbtn{
+    display: flex;
+    justify-content: space-around;
+}
+.c{
+    margin-top: 19px;
+}
+.c button:hover{
+    background-color: #00b109;
+    color: white;
+    cursor: pointer;
+} 
+
+.l a{
+    color: white;
+}
+.l{
+    margin-left: 14px;
+    margin-top: 19px;
+}
+.l button:hover{
+    background-color: #00b109;
+    color: white;
+    cursor: pointer;
+}
+.loginform{
+    border-radius: 5px;
+    background-color: rgb(109 94 94 / 39%);
+    padding: 20px;
+    margin: 0 auto;
+    width: 45%;
+}
+.loginform button:hover {
+
+    background-color: #00b109;
+  }
+  .lxbtn{
+    float: right;
+    background-color: azure;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17%;
+    cursor: pointer;
+  }
+  .lxbtn:hover{
+    background-color: red;
+    
+  }
+  .ltext{
+    text-align: center;
+  }
+  .loginform input[type=text],input[type=password]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .loginform button{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+
+
+
+ 
+  
+
+  
